@@ -1,0 +1,56 @@
+{
+  "status": "SUCCESS",
+  "last_run": "2025-12-15T22:52:09.589554",
+  "cryptos": [
+    {
+      "name": "Bitcoin",
+      "price_usd": 86200.0,
+      "price_inr": 7154600.0
+    },
+    {
+      "name": "Ethereum",
+      "price_usd": 2972.85,
+      "price_inr": 246746.55
+    },
+    {
+      "name": "Tether",
+      "price_usd": 1.0,
+      "price_inr": 83.0
+    },
+    {
+      "name": "BNB",
+      "price_usd": 851.25,
+      "price_inr": 70653.75
+    },
+    {
+      "name": "XRP",
+      "price_usd": 1.91,
+      "price_inr": 158.53
+    },
+    {
+      "name": "USDC",
+      "price_usd": 0.999753,
+      "price_inr": 82.98
+    },
+    {
+      "name": "Solana",
+      "price_usd": 126.04,
+      "price_inr": 10461.32
+    },
+    {
+      "name": "TRON",
+      "price_usd": 0.279468,
+      "price_inr": 23.2
+    },
+    {
+      "name": "Lido Staked Ether",
+      "price_usd": 2971.4,
+      "price_inr": 246626.2
+    },
+    {
+      "name": "Dogecoin",
+      "price_usd": 0.12917,
+      "price_inr": 10.72
+    }
+  ]
+}
