@@ -194,34 +194,67 @@ http://localhost:8000
 * **Relative paths** enable easy automation
 
 ---
+## 🔁 Pipeline Automation
 
-## 🔁 Automation (Future Improvements)
+In production, this pipeline would be automated to run on a fixed schedule instead of being triggered manually.
 
-If this were production-ready, the pipeline could be automated using:
+* Cron / Task Scheduler
+Schedule the pipeline to run at regular intervals (hourly or daily) using cron jobs (Linux) or Windows Task Scheduler.
 
-* Windows Task Scheduler or cron jobs
-* GitHub Actions (scheduled workflows)
-* Cloud Functions (Azure Functions / AWS Lambda)
-* Workflow tools like n8n or Airflow
+* Cloud-Native Automation
+Run the pipeline as an Azure Function or AWS Lambda with a timer trigger for serverless execution and automatic scaling.
 
----
+* Workflow Orchestration
+Use tools like n8n, Apache Airflow, or Azure Data Factory to manage retries, dependencies, and execution history.
 
-## 🚀 Scaling & Enhancements
-
-* Replace SQLite with PostgreSQL
-* Add retry logic with exponential backoff
-* Integrate alerting (Slack / Email)
-* Containerize using Docker
-* Deploy dashboard on Vercel or Netlify
-* Add authentication & role-based access
+* CI/CD Scheduling
+Use GitHub Actions (cron workflows) to run the pipeline on a schedule and store logs as build artifacts.
 
 ---
 
-## 📸 Submission Notes
+## 🚨 Alerting & Notifications
 
-* GitHub repository contains all source code
-* Dashboard can be viewed locally or via screenshots
-* Pipeline demonstrates reliability, monitoring, and automation readiness
+To improve reliability and observability, alerting would be added for pipeline failures.
+
+Send Slack notifications or email alerts when the pipeline status is marked as FAILED.
+
+Trigger alerts via:
+
+* Slack Webhooks
+
+*IFTTT / Zapier Webhooks
+
+* Cloud monitoring tools (Azure Monitor, AWS CloudWatch)
+
+Alerts would include:
+
+*Failure reason
+
+* Timestamp
+
+* Pipeline stage where the error occurred
+
+---
+
+## 📈 Production Improvements & Scalability
+
+If this system were deployed in production, the following enhancements would be applied:
+
+Replace SQLite with PostgreSQL or a managed cloud database for concurrency and scalability.
+
+Add retry logic with exponential backoff for API calls.
+
+Introduce centralized logging and metrics (ELK stack, Prometheus, Grafana).
+
+Container orchestration using Kubernetes or Azure Container Apps.
+
+Secure secrets using environment variables or a secrets manager.
+
+Add API versioning and schema validation.
+
+Implement role-based access control (RBAC) for the dashboard.
+
+Enable horizontal scaling of ingestion and visualization components.
 
 ---
 
@@ -230,5 +263,6 @@ If this were production-ready, the pipeline could be automated using:
 This project shows how to build a **clean, reliable data pipeline** with **monitoring and visibility**, using simple tools that can easily scale to production systems.
 
 ---
+
 
 
