@@ -235,11 +235,3 @@ This project shows how to build a **clean, reliable data pipeline** with **monit
 
 ---
 
-If you want next, I can:
-
-* ✅ Optimize this README for **recruiter keywords**
-* ✅ Help you **host the dashboard**
-* ✅ Prepare a **2-minute project explanation**
-* ✅ Create **GitHub Actions automation**
-
-Just tell me 👍
